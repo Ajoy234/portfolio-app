@@ -135,7 +135,11 @@ nav .menu .menu-btn{
 .home{
     height: 100vh;
     width: 100%;
+    /*
     background: url("images/hero4.jpg") no-repeat;
+    */
+    
+    background: #f0f8ff;
     background-size: cover;
     background-position:center center;
     background-attachment: fixed;
@@ -149,7 +153,31 @@ nav .menu .menu-btn{
     flex-direction: column;
     justify-content: center;
 }
-
+/*=====  
+.home .home-content .text{
+    width: 50%;
+    float: left;
+    
+}
+.text{
+    display: flex 1;
+}
+.profile-pic{
+    display: flex 5;
+}
+.home .home-content .profile-pic{
+    
+    
+    width: 30%;
+    float: left;
+}
+.home .home-content .profile-pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 8%;
+    float: right;
+}
+ */
 .home .text-one{
     font-size: 25px;
     color: var(--black-color);
@@ -251,7 +279,7 @@ nav .menu .menu-btn{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 50%;
 }
 .about .about-details .right{
     width: 55%;
