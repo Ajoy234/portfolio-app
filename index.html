@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- FONT AWSOME CDN LINK-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 </head>
@@ -82,10 +83,11 @@
                 <div class="right">
                     <div class="topic">Disining is my passion</div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        I am a CSE graduate with experience in technical support. I have been working in a technology company as IT support officer for 2 years. I came to the industry with my skill in PHP, JavaScript, CCNA, SQL and so on. I am eager to develope even more strong skill and passionate to build a career path in this field.
                     </p>
                     <div class="button">
-                        <button> <a href="cv_ajoy_chandra_saha.pdf" target="_">View CV</a> </button>
+                        <button> <a href="cv_ajoy_chandra_saha.pdf" target="_blank"  >View CV</a> </button>
+                        <button> <a href="cv_ajoy_chandra_saha.pdf" download  >Download CV</a> </button>
                     </div>
 
                 </div>
@@ -119,7 +121,7 @@
                         <div class="per">80%</div>
                     </div>
                     <div class="box">
-                        <div class="topic">JAVA scripts</div>
+                        <div class="topic">Javascripts</div>
                         <div class="per">70%</div>
                     </div>
                     <div class="box">
@@ -201,15 +203,23 @@
 <section class="contact" id="contact">
     <div class="content">
         <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-            <div class="topic">Have any Projects?</div>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-            </p>
-            <div class="button">
-                <button>Let's Chat</button>
+        <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my work, you can send me message from here. It's my pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
             </div>
-
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <textarea name=""  cols="30" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
         </div>
     </div>
 </section>
@@ -226,5 +236,15 @@
 
 
 <script src="script.js"></script>
+<script>
+    //  $(document).ready(function(){
+    //     $('#download-cv').click(function(e){
+    //         e.preventDefault();
+    //         window.location.href= "cv_ajoy_chandra_saha.pdf";
+    //     });
+    // }); 
+
+    
+</script>
 </body>
 </html>

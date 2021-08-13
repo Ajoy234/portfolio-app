@@ -9,7 +9,7 @@
 
 /*=== CSS variables */
 :root{
-    --primary-color:#b624a6;
+    --primary-color:#3675ba;
     --black-color:#0E2431;
     --white-color:#fff;
 
@@ -18,6 +18,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 /*Custom scrol Bar CSS */
 ::-webkit-scrollbar{
     width: 10px;
@@ -440,7 +443,7 @@ section .button button:hover{
 
 /*Contact Me CSS*/
 .contact{
-    background-color: #f0f8ff;
+    background-color: var(--white-color);
 }
 .contact .content{
     margin: 0 auto;
@@ -453,6 +456,55 @@ section .button button:hover{
     margin: auto;
 }
 
+.contact .content .right-side .topic-text{
+    font-size: 23px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.contact .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+
+  .right-side .input-box input,
+.right-side .input-box textarea{
+  height: 80%;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background:var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button input[type="button"]:hover{
+    background: #5029bc;
+  }
 /*Footer CSS*/
 
 footer{
